@@ -1,0 +1,41 @@
+.hero-img {
+  background: url(../image/download.png);
+  position: relative;
+  height: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s ease-in-out;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  border: 2px solid #bbbc73;
+  animation: wave 8s ease-in-out infinite;
+  left: 0;
+  top: 0;
+}
+header {
+  height: calc(100vh - 70px);
+}
+@keyframes wave {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 80% 30% 70% 40% / 70% 55% 60% 30%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+@media (max-width: 767px) {
+  .hero-img {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .hero-img {
+    height: 230px;
+    width: 230px;
+  }
+}
