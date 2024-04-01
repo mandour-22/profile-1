@@ -6,24 +6,24 @@ import React from "react";
 const Contact = () => {
   return (
     <section
-      className="relative pt-6 pb-6 mt-16 mb-16 bg-gray-100"
+      className="relative pt-20 pb-20 bg-gray-100 dark:bg-gray-900"
       id="contact">
       <div className="max-w-screen-xl mx-auto flex flex-col item-center p-4">
         <p className="text-blue-600 text-3xl font-bold mb-2 max-sm:text-center">
           Contact Me
         </p>
-        <h2 className="text-2xl font-bold max-sm:text-center ">
+        <h2 className="text-2xl font-bold max-sm:text-center dark:text-gray-200">
           You can contact me through
         </h2>
         <div className="flex items-center max-sm:flex-col gap-8 mt-10">
-          <div className="bg-gray-200 shadow-sm w-2/3 max-sm:w-full p-5">
+          <div className="bg-gray-200 rounded-lg dark:bg-gray-900 dark:border-2 dark:border-gray-800 shadow-sm w-2/3 max-sm:w-full p-5">
             <span className="">
               <FontAwesomeIcon
                 icon={faEnvelope}
                 className="text-blue-500 text-2xl"
               />
             </span>
-            <h4 className="text-2xl mt-3 mb-3 pr-10 font-semibold text-gray-800">
+            <h4 className="text-2xl mt-3 mb-3 pr-10 font-semibold text-gray-800 dark:text-gray-200">
               Email me
             </h4>
             <a
@@ -32,14 +32,14 @@ const Contact = () => {
               omarhassa321@gamil.com
             </a>
           </div>
-          <div className="bg-gray-200 shadow-sm w-2/3 max-sm:w-full p-5">
+          <div className="bg-gray-200 rounded-lg dark:bg-gray-900 dark:border-2 dark:border-gray-800 shadow-sm w-2/3 max-sm:w-full p-5">
             <span className="">
               <FontAwesomeIcon
                 icon={faPhone}
                 className="text-blue-500 text-2xl"
               />
             </span>
-            <h4 className="text-2xl mt-3 mb-3 pr-10 font-semibold text-gray-800">
+            <h4 className="text-2xl mt-3 mb-3 pr-10 font-semibold text-gray-800 dark:text-gray-200">
               Call Me
             </h4>
             <a className="text-blue-500 hover:text-blue-700 hover:underline cursor-pointer">
