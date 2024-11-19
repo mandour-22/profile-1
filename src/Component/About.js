@@ -2,6 +2,7 @@ import React from "react";
 import AboutImg from "../image/about.jpg";
 import WorkImg from "../image/working.png";
 import textImg from "../image/text2-about.svg";
+import profileImage from "../image/mainImage.png.jpg";
 import "../style/About.css";
 
 const About = () => {
@@ -9,12 +10,15 @@ const About = () => {
     <section className="pt-10 pb-10 bg-gray-100 dark:bg-gray-800" id="about">
       <div className="max-w-screen-xl max-md:flex-col mx-auto gap-10 px-5 flex items-center justify-around pt-16 pb-16 ">
         <div className="relative shadow-md">
-          <img
-            src={AboutImg}
-            alt="about-img"
-            className="rounded-2xl"
-            width={500}
-          />
+          <div className="relative rounded-2xl">
+            <img
+              src={profileImage}
+              alt="about-img"
+              className="rounded-2xl"
+              width={500}
+            />
+            <span className="absolute bg-black/20 dark:bg-black/40 w-full h-full top-0 left-0 rounded-2xl" />
+          </div>
           <img
             src={WorkImg}
             alt="work-img"

@@ -3,9 +3,11 @@
 @tailwind utilities;
 
 * {
-  font-family: "Poppins", sans-serif !important;
   transition: all 0.2s ease-in-out;
   scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif !important;
 }
 nav {
   transition: all 0s ease-in-out;

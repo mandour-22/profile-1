@@ -8,13 +8,15 @@ import js from "../image/js.png";
 import react from "../image/react.jpeg";
 import tailwind from "../image/tailwindcss.png";
 import { Typewriter } from "react-simple-typewriter";
+import typescript from "../image/typescript.png";
 const Hero = () => {
   const list = [
     { id: 1, image: Html, alt: "HTML5" },
     { id: 2, image: Css, alt: "CSS3" },
     { id: 3, image: js, alt: "Javascript" },
-    { id: 4, image: react, alt: "react" },
-    { id: 5, image: tailwind, alt: "tailwind CSS" },
+    { id: 4, image: typescript, alt: "Typescript" },
+    { id: 5, image: react, alt: "react" },
+    { id: 6, image: tailwind, alt: "tailwind CSS" },
   ];
 
   return (
